@@ -1,0 +1,274 @@
+@charset "UTF-8";
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1449168013943-3a15804bb41c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9a5f9deea2b4c2c1eeaf84265913f20f");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+.navbar-wrapper{
+    margin-bottom: 50px;
+}
+
+#container-size{
+    height:70px;
+}
+
+#contents{
+    margin-left: 20.3%;
+    margin-right: 30px;
+    width: 350px;
+    height: auto;
+    float: left;
+}
+#user-recommend-wrap{
+    padding-top: 20px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: oldlace;
+    margin-bottom: 20px;
+}
+#recommend-menu{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#recommend-menu-list{
+    margin-left: 20px;
+    font-size: 15px;
+}
+#mention-id{
+    height: 30px;
+    font-size: 15pt;
+    margin-bottom: 18px;
+}
+#rate{
+    margin-top: 12px;
+    border-top: 2px solid #cccccc;
+    height: auto;
+}
+#prs{
+    border-right: 2px solid #cccccc;
+    float: left;
+    width: 90px;
+}
+#rate-text{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-size: 9pt;
+}
+#rate-num-pr{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 18pt;
+}
+#rate-num-following{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 18pt;
+}
+#rate-num-follower{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 18pt;
+}
+#folowing{
+    border-right: 2px solid #cccccc;
+    float: left;
+    width: 90px;
+}
+#folowoo{
+    float: left;
+    width: 90px;
+}
+#search_user_wrap{
+    height: auto;
+    border-radius: 5px;
+    background-color: oldlace;
+}
+#search_user{
+    float: left;
+    width: 250px;
+}
+#search_user_btn{
+    margin-left: 12px;
+}
+#seached_user_list{
+    display: none;
+    clear: both;
+    border-top: 1px solid peachpuff;
+    margin-top: 15px;
+    padding: 20px 10px 0 20px;
+}
+#seached_user_list_one{
+    clear: both;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#list_name{
+    font-size: 10pt;
+    float: left;
+    margin: 13px;
+    max-width: 100px;
+}
+#followoo_btn{
+    float: right;
+    margin: 10px 0 0 0;
+}
+#time-line-wrap{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: oldlace;
+    margin-right: 20.3%;
+    float: right;
+    width: 740px;
+    height: auto;
+    padding: 35px 55px;
+    padding-bottom: 0;
+}
+#do-pr-wrap{
+    padding: 15px;
+    height: 130px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkkhaki;
+    background-color: white;
+    margin-bottom: 30px;
+}
+#do-pr{
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#pr_button{
+    float: right;
+}
+
+#pr_text{
+    border-radius: 3px;
+    padding: 5px;
+}
+.buttonWrap {
+    margin-left: 10px;
+    position:relative;
+    float:left;
+    overflow:hidden;
+    cursor:pointer;
+    background-image:url('http://news.metro.ru/i11/MB_0005_Camera.png');
+    background-size: 30px 30px;
+    width:30px;
+    height:30px;
+}
+.buttonWrap input {
+    position: absolute;
+    margin-left:-10px;
+    filter:alpha(opacity=0);
+    opacity:0;
+    -moz-opacity:0;
+    cursor:pointer;
+    background-size: 30px 30px;
+    width:30px;
+    height:30px;
+}
+#time-line{
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkkhaki;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+    min-height: 675px;
+}
+#pr{
+    padding: 10px;
+    border-bottom: 1px solid darkkhaki;
+}
+#pr_picture{
+    background-size: 43px 45px;
+    width: 47px;
+    height: 49px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: #888888;
+    float: left;
+}
+#pr_contents{
+    float: left;
+    margin-left: 20px;
+    font-size: 15px;
+}
+#nick_id_date{
+    float: left;
+    margin-left: 70px;
+    font-size : 15px;
+}
+#pr_nickname{
+    font-size: 15px;
+    margin-left: 2px;
+    float: left;
+}
+#pr_id{
+    font-size: 15px;
+    margin-left: 50px;
+    float: left;
+}
+#pr_date{
+    font-size: 13px;
+    margin-left: 330px;
+    color: burlywood;
+}
+#pr_message{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#padding_border{
+    height: 10px;
+    border-bottom: 1px solid darkkhaki;
+}
+#logout_Button{
+    position: absolute;
+    right: 1%;
+    top: 20%;
+    font-size: 20px;
+}
+#pay-money{
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+}
+#payed-money{
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+#total-price{
+    margin-left: 20px;
+    font-size: 20px;
+}
+#pr_img_wrap{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+}
+#pr_img{
+    width: 140px;
+    height: 140px;
+}
+#pr_line1{
+    height: 25px;
+}
+#pr_line2{
+    margin-top: 7px;
+}
+
+#create-room{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+}

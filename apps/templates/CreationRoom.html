@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>방 생성</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./static/css/CreationRoom.css">
+
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./static/js/CreationRoom.js" charset="UTF-8"></script>
+</head>
+<body>
+	<div id = "contents">
+        <div id = "mini-profile-wrap">
+		    <div id = "creation-title">
+                <input type="text" id = "inputTitle" class="form-conrol" placeholder = "방 제목" required autofocus>
+		    </div>
+                <div id = "creation-password">
+                <input type="password" id = "inputPassword" class="form-conrol" placeholder = "비밀번호" required autofocus>
+            </div>
+                <div id = "creation-number">
+                <input type="number" id = "inputNumber" class="form-conrol" placeholder = "인원 수" required autofocus>
+            </div>
+                <div id = "creation-rname">
+                <input type="text" id = "inputRname" class="form-conrol" placeholder = "음식점" required autofocus>
+            </div>
+            <div id = "create">
+                <button class="btn btn-xs btn-primary" id = "create_Button" onclick="create_room()">
+                    &nbsp;&nbsp;생성&nbsp;&nbsp;
+                </button>
+                <button class="btn btn-xs btn-primary" id = "goBack_Button" onclick="GoMain()">
+                    &nbsp;&nbsp;메인&nbsp;&nbsp;
+                </button>
+            </div>
+        </div>
+	</div>
+    <div id = "restaurant-line">
+        <div id = "restaurant-index">
+            <input type='button' id = "korean_food" value = '한식'/>
+            <input type='button' id = "jokbo" value = '족발보쌈'/>
+            <input type='button' id = "chinese_food" value = '중식'/>
+            <input type='button' id = "night_food" value = '야식'/>
+            <input type='button' id = "chicken" value = '치킨'/>
+            <input type='button' id = "pizza" value = '피자'/>
+            <input type='button' id = "flour_food" value = '분식'/>
+            <input type='button' id = "andSoOn" value = '기타'/>
+        </div>
+        <div id = "restaurant-wrap">
+        </div>
+    </div>
+</body>
+</html>

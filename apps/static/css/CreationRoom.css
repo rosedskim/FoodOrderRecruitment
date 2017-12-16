@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1449168013943-3a15804bb41c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9a5f9deea2b4c2c1eeaf84265913f20f");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contents{
+    margin-left: 8.3%;
+    margin-top: 60px;
+    margin-right: 30px;
+    width: 350px;
+    height: auto;
+    float: left;
+}
+#creation-title{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    height: 30px;
+    font-size: 20px;
+}
+#creation-number{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#creation-password{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#creation-number{
+    margin-left: 10%;
+    margin-right: 10%;
+   margin-bottom: 30px;
+    margin-top: 15px;
+    height: 30px;
+}
+
+#creation-rname{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#create_Button{
+    margin-top: 10px;
+    margin-left: 60px;
+    height: 50px;
+    font-size: 25px;
+}
+
+#goBack_Button{
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+
+#korean_food{
+    font-size: 17.5px;
+}
+#chinese_food{
+   font-size: 17.5px;
+}
+#jokbo{
+    font-size: 17.5px;
+}
+#night_food{
+    font-size: 17.5px;
+}
+#chicken{
+    font-size: 17.5px;
+}
+#flour_food{
+    font-size: 17.5px;
+}
+#pizza{
+    font-size: 17.5px;
+}
+#andSoOn{
+    font-size: 17.5px;
+}
+#mini-profile-wrap{
+    padding-top: 10px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: oldlace;
+    margin-bottom: 20px;
+}
+
+#restaurant-line{
+    margin-top: 30px;
+    width: 740px;
+    height: auto;
+    float:right;
+    margin-right: 30.3%;
+}
+
+#restaurant-index{
+    padding-left: 30px;
+    height: 30px;
+    float:left;
+    width: 740px;
+}
+
+#restaurant-wrap{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: oldlace;
+    margin-top: 30px;
+    width: 740px;
+    height: auto;
+    min-height: 740px;
+    padding-top : 30px;
+    padding-bottom: 0;
+}
+#restaurant-mold{
+    background-color: lightgreen;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 220px;
+    height: 220px;
+    float: left;
+}
+
+#restaurant-title{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#restaurant-info{
+    margin-top: 10px;
+}
+
+#korean-mold{
+    background-color: lightgreen;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 220px;
+    height: 220px;
+    float: left;
+}
+
+#japanese-mold{
+    background-color: lightgreen;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 220px;
+    height: 220px;
+    float: left;
+}
+
+#chinese-mold{
+    background-color: lightgreen;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 220px;
+    height: 220px;
+    float: left;
+}
+
+#nightfood-mold{
+    background-color: lightgreen;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 220px;
+    height: 220px;
+    float: left;
+}
+
+#fastfood-mold{
+    background-color: lightgreen;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 220px;
+    height: 220px;
+    float: left;
+}
+
+#flourfood-mold{
+    background-color: lightgreen;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 220px;
+    height: 220px;
+    float: left;
+}
+
+#andSoOn-mold{
+    background-color: lightgreen;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 220px;
+    height: 220px;
+    float: left;
+}
+
+#sizeOfModal{
+    margin-left: 35%;
+    margin-top: 2%;
+    width: 600px;
+    text-align:center;
+    vertical-align: middle;
+    font-size: 20px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        음식주문방
+    </title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../static/css/room.css">
+
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="../static/js/room.js" charset="UTF-8"></script>
+</head>
+<body>
+	<div id = "contents">
+        <div id = "host-info">
+            <div id = "host_name">
+                방 제목: {{room_title}}
+            </div>
+            <div id = "r-info1">
+                방장: {{host_name}}
+            </div>
+            <div id = "r-info2">
+                생성 시간: {{created}}
+            </div>
+            <div id = "r-info3">
+                인원: <span id = "inwon"></span>/{{room_inwon}}
+            </div>
+        </div>
+        <div id = "restaurant-info">
+            <div id = "r-info1">
+                음식점 이름: {{rname}}
+            </div>
+            <div id = "r-info2">
+                음식점 위치: {{rlocation}}
+            </div>
+            <div id = "r-info3">
+                전화번호: {{rphone}}
+            </div>
+        </div>
+    </div>
+    <div id = "contents-other">
+        <div id = "menu-order">
+            <form>
+                <button class = "btn btn-xs btn-search" id = "order-complete" onclick="UserReady()">
+                    주문준비
+                </button>
+                <button type="button" class = "btn btn-xs btn-search" data-toggle= "modal" data-target="#show_menu" id = "choice-menu">
+                    메뉴선택
+                </button>
+                <button class = "btn btn-xs btn-search" id = "room-out" onclick="RoomOut()">방나가기</button>
+            </form>
+        </div>
+        <div id = "host-menu">
+            <div id = "host-menu-wrap">
+            </div>
+        </div>
+        <div class="modal fade" id="show_menu" role="dialog">
+            <div class="modal-dialog">
+                <form id = "selectMenu" action="/select" method = "POST">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">{{rname}} 메뉴</h4>
+                        </div>
+                        <div class="modal-body" id = "modal-plus">
+                        </div>
+                        <div class="modal-footer">
+                            <input type = "button" onclick="orderComplete()" class="btn btn-success" data-dismiss="modal" name = "btn" value = "선택완료"/>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id = "common-menu">
+            <div id = "total-pay">
+                총 지불 금액
+            </div>
+            <div id = "common-menu-select">
+            </div>
+        </div>
+    </div>
+    <div id = "contents-personal">
+    </div>
+</body>
+</html>
